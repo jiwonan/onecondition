@@ -10,6 +10,12 @@ namespace onecondition
     {
         static void Main(string[] args)
         {
+            int x;
+
+            Console.Write("x입력: ");
+            x = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(x > 10 ? x < 20 ? "조건에 맞습니다." : "" : "");
         }
     }
 }
